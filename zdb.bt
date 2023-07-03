@@ -1,0 +1,21 @@
+typedef struct HEADER   
+{  
+    int32 headerSize;
+    int32 nBlockNumber;        
+};
+
+typedef struct BlockIndex{
+    uint64 xx32 <format=hex, comment="key">;
+    int32 offset <format=hex, comment="key">;
+    int32 size <format=hex, comment="key">;
+};
+
+while ( ! FEof() )
+{
+    struct HEADER header;
+    local int i = 0;
+    for(i=0; i < header.nBlockNumber; i++){
+        struct BlockIndex index;    
+    }
+    break;
+}
